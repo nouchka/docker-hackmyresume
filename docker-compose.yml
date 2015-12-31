@@ -1,0 +1,15 @@
+hackmyresume:
+  image: nginx
+  ports:
+    - "127.0.0.1:8001:80"
+  volumes_from:
+    - generate
+generate:
+  build: .
+  environment:
+    - OUTPUT_FORMAT=positive
+  volumes_from:
+    - fetch
+fetch:
+  build: .
+  command: curl -o /usr/share/nginx/html/resume.json https://raw.githubusercontent.com/hacksalot/HackMyResume/master/test/resumes/jrs-0.0.0/jane-q-fullstacker.json
