@@ -11,3 +11,4 @@ VOLUME /usr/share/nginx/html/
 
 Change URL of your resume.json in docker-compose.yml to download an other resume or mount directory /usr/share/nginx/html/ to a local directory.
 
+URL on Docker Hub: https://hub.docker.com/r/nouchka/hackmyresume/
