@@ -5,11 +5,11 @@ hackmyresume:
   volumes_from:
     - generate
 generate:
-  build: .
+  image: nouchka/hackmyresume
   environment:
-    - OUTPUT_FORMAT=positive
+    - OUTPUT_FORMAT=kendall
   volumes_from:
     - fetch
 fetch:
-  build: .
+  image: nouchka/hackmyresume
   command: curl -o /usr/share/nginx/html/resume.json https://raw.githubusercontent.com/hacksalot/HackMyResume/master/test/resumes/jrs-0.0.0/jane-q-fullstacker.json
