@@ -3,6 +3,12 @@ Docker image to build personal website with resume. Need nginx to run the websit
 
 docker-compose up
 
+Test without docker-compose:
+
+docker run --name hackmyresume -e OUTPUT_TEMPLATE=kendall -v /tmp/resume/:/usr/share/nginx/html/ nouchka/hackmyresume
+
+Without init resume.json, a blank one will be generated. Re-run to see the changes.
+
 ENV OUTPUT_TEMPLATE specify basic template or https://jsonresume.org/themes/ template (ex. kendall in docker-compose.yml, default: modern)
 
 ENV RESUME_FILE specify a different resume file (default: resume.json)
