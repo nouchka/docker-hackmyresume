@@ -3,7 +3,7 @@ Docker image to build personal website with resume. Need nginx to run the websit
 
 docker-compose up
 
-Test without docker-compose:
+Test without docker-compose (and without nginx):
 
 docker run --name hackmyresume -e OUTPUT_TEMPLATE=kendall -v /tmp/resume/:/usr/share/nginx/html/ nouchka/hackmyresume
 
