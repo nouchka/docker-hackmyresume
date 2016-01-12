@@ -7,7 +7,7 @@ hackmyresume:
 generate:
   image: nouchka/hackmyresume
   environment:
-    - OUTPUT_FORMAT=kendall
+    - OUTPUT_TEMPLATE=kendall
   volumes_from:
     - fetch
 fetch:
