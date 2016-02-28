@@ -19,13 +19,13 @@
         "network": "GitHub",
         "username": "nouchka",
         "url": "https://github.com/nouchka",
-        "iconClass": "fa-github-square"
+        "iconClass": "fa fa-github-square"
       },
       {
         "network": "Linkedin",
         "username": "japromis",
         "url": "https://fr.linkedin.com/in/japromis",
-        "iconClass": "fa-linkedin-square"
+        "iconClass": "fa fa-linkedin-square"
       }
     ]
   },
