@@ -8,7 +8,7 @@
     "email": "###EMAIL###",
     "picture": "https://media.licdn.com/media/p/2/000/02c/217/12da0b2.jpg",
     "location": {
-      "address": "Jean-Avit Promis\n68 rue Marcel Sembat.\n33130 Bègles",
+      "address": "Jean-Avit Promis\n###ADDRESS###",
       "postalCode": "33130",
       "city": "Bègles",
       "countryCode": "FR",
