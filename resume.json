@@ -6,7 +6,7 @@
     "website": "http://www.katagena.com/",
     "phone": "###PHONE###",
     "email": "###EMAIL###",
-    "picture": "https://media.licdn.com/media/p/2/000/02c/217/12da0b2.jpg",
+    "picture": "https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/picture.jpg",
     "location": {
       "address": "Jean-Avit Promis\n###ADDRESS###",
       "postalCode": "33130",

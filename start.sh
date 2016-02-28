@@ -1,8 +1,14 @@
 #!/bin/bash
 
+sleep 5
+
 if [ ! -f "$RESUME_FILE" ]; then
 	hackmyresume NEW $RESUME_FILE
 fi
+
+sed -i 's/###PHONE###/'$PHONE'/' $RESUME_FILE
+sed -i 's/###EMAIL###/'$EMAIL'/' $RESUME_FILE
+sed -i "s/###ADDRESS###/$ADDRESS/" $RESUME_FILE
 
 hackmyresume VALIDATE $RESUME_FILE
 

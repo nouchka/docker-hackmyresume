@@ -8,6 +8,9 @@ generate:
   build: .
   environment:
     - OUTPUT_TEMPLATE=kendall
+    - PHONE=+33602030405
+    - EMAIL=docker@katagena.com
+    - ADDRESS=25 Rue Delphin Loche
   volumes_from:
     - fetch
 fetch:
