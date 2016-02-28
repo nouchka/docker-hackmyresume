@@ -12,4 +12,4 @@ generate:
     - fetch
 fetch:
   image: nouchka/hackmyresume
-  command: curl -o /usr/share/nginx/html/resume.json https://raw.githubusercontent.com/hacksalot/HackMyResume/master/test/resumes/jrs-0.0.0/jane-q-fullstacker.json
+  command: curl -o /usr/share/nginx/html/resume.json https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
