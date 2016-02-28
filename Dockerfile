@@ -3,6 +3,9 @@ MAINTAINER Jean-Avit Promis "docker@katagena.com"
 
 ENV RESUME_FILE   resume.json
 ENV OUTPUT_TEMPLATE modern
+ENV PHONE +33602030405
+ENV EMAIL docker@katagena.com
+ENV ADDRESS "25 Rue Delphin Loche"
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \
