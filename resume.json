@@ -18,12 +18,14 @@
       {
         "network": "GitHub",
         "username": "nouchka",
-        "url": "https://github.com/nouchka"
+        "url": "https://github.com/nouchka",
+        "iconClass": "fa-github-square"
       },
       {
         "network": "Linkedin",
         "username": "japromis",
-        "url": "https://fr.linkedin.com/in/japromis"
+        "url": "https://fr.linkedin.com/in/japromis",
+        "iconClass": "fa-linkedin-square"
       }
     ]
   },
