@@ -1,0 +1,183 @@
+{
+  "basics": {
+    "name": "Jean-Avit Promis",
+    "label": "PHP DEVELOPER & ECOMMERCE SPECIALIST",
+    "summary": "**Web developer with 8+ years industry experience** specializing in ecommerce and system architecture.",
+    "website": "http://www.katagena.com/",
+    "phone": "###PHONE###",
+    "email": "###EMAIL###",
+    "picture": "https://media.licdn.com/media/p/2/000/02c/217/12da0b2.jpg",
+    "location": {
+      "address": "Jean-Avit Promis\n68 rue Marcel Sembat.\n33130 Bègles",
+      "postalCode": "33130",
+      "city": "Bègles",
+      "countryCode": "FR",
+      "region": "Gironde"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "nouchka",
+        "url": "https://github.com/nouchka"
+      },
+      {
+        "network": "Linkedin",
+        "username": "japromis",
+        "url": "https://fr.linkedin.com/in/japromis"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Smile Sud-Ouest",
+      "website": "http://www.smile.fr/",
+      "position": "Technical lead",
+      "startDate": "2010-09",
+      "summary": "Worked as magento developer and technical lead for new e-commerce project or for support. As project manager I was in charge of the communication between Smile and clients, I planned deliveries, developments, managed dev team, advised clients. As developer I designed store locator, renting system, SEO plan, graphic upgrade, Back Office extension, etc... Technical environment: Magento, Solr, ElasticSearch, MongoDB, Percona, Redis, load-balanced servers. Accounts: Krys, Le comptoir santé (Cdiscount), Cultura, Chantelle, Chantelle US, Comtesse du Barry, Cityvision, Vertsloisirs, Darjeeling, etc...",
+      "highlights": [
+        "Managed a 5-person development team",
+        "Worked in one of the top french e-commerce company (Cdiscount)",
+        "Designed new features on a 10+ millions products magento"
+      ]
+    },
+    {
+      "company": "Smile Paris",
+      "website": "http://www.smile.fr/",
+      "position": "Developer and Technical manager",
+      "startDate": "2007-03",
+      "endDate": "2010-09",
+      "summary": "Worked as Java and Dotnet developer to design corporate websites. I designed new screens, created contribution workflows, data feeds import, etc... Technical environment: Jahia, J2EE, LDAP, SSO. Accounts: Notaires de France (Real estate), Gallimard (Book editor), Bureau Veritas (Certification), BNP (Banking), AG2R (Insurance), Sanef (Highway), Aprionis (Pension fund), Lyonnaise des eaux (Water supply), etc...",
+      "highlights": [
+        "Developped an live auction for real estate.",
+        "First technical lead on a project."
+      ]
+    },
+    {
+      "company": "Business en ligne",
+      "website": "http://www.businessenligne.fr/",
+      "position": "Developer",
+      "startDate": "2006-04",
+      "endDate": "2006-08",
+      "summary": "PHP developer. Created an online training platform."
+    },
+    {
+      "company": "Butler Gallery",
+      "website": "http://www.butlergallery.com/",
+      "position": "Developer",
+      "startDate": "2005-07",
+      "endDate": "2005-08",
+      "summary": "PHP developer. Created a CMS like website for an art gallery in Ireland.",
+      "highlights": [
+        "Helped setting up new Exhibitions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESIGETEL, École supérieure d'ingénieurs en informatique et génie des télécommunications",
+      "area": "SIR",
+      "startDate": "2004-11",
+      "endDate": "2007-02"
+    },
+    {
+      "institution": "University of Marne la vallée",
+      "area": "Mathematics",
+      "startDate": "2004-10",
+      "endDate": "2005-06"
+    },
+    {
+      "institution": "Lycée Jean Dautet, La Rochelle",
+      "area": "MPSI / PSI",
+      "startDate": "2001-09",
+      "endDate": "2004-06"
+    },
+    {
+      "institution": "Lycée Jean Macé",
+      "area": "Scientific",
+      "startDate": "1998-09",
+      "endDate": "2001-06"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Softwares",
+      "keywords": [
+        "Magento",
+        "Jahia"
+      ]
+    },
+    {
+      "name": "System",
+      "keywords": [
+        "Linux",
+        "Docker",
+        "Debian packaging",
+        "Asterisk"
+      ]
+    },
+    {
+      "name": "Framework",
+      "keywords": [
+        "Zend",
+        "Symfony",
+        "Struts",
+        "jQuery",
+        "AngularJS"
+      ]
+    },
+    {
+      "name": "Langages",
+      "keywords": [
+        "PHP",
+        ".net",
+        "JAVA",
+        "Javascript"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel",
+      "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
+      "keywords": [
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "name": "Rugby",
+      "summary": "Jane enjoys hiking, light mountain climbing, and has four summits under her belt!"
+    },
+    {
+      "name": "Live concert"
+    },
+    {
+      "name": "Architecture"
+    },
+    {
+      "name": "Museum/Art"
+    },
+    {
+      "name": "Sustainable development"
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "TOEIC 915"
+    },
+    {
+      "language": "German",
+      "level": "Moderate",
+      "years": 7
+    },
+    {
+      "language": "Swedish",
+      "level": "Beginner"
+    }
+  ]
+}
