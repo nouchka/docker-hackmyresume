@@ -1,0 +1,15 @@
+hackmyresume:
+  image: nginx
+  ports:
+    - "127.0.0.1:8001:80"
+  volumes_from:
+    - generate
+generate:
+  build: .
+  environment:
+    - OUTPUT_TEMPLATE=kendall
+  volumes_from:
+    - fetch
+fetch:
+  build: .
+  command: curl -o /usr/share/nginx/html/resume.json https://raw.githubusercontent.com/nouchka/docker-hackmyresume/master/resume.json
