@@ -102,10 +102,13 @@
   ],
   "skills": [
     {
-      "name": "Softwares",
+      "name": "Framework",
       "keywords": [
-        "Magento",
-        "Jahia"
+        "Symfony2",
+        "jQuery",
+        "Zend",
+        "Struts",
+        "AngularJS"
       ]
     },
     {
@@ -118,13 +121,10 @@
       ]
     },
     {
-      "name": "Framework",
+      "name": "Softwares",
       "keywords": [
-        "Zend",
-        "Symfony",
-        "Struts",
-        "jQuery",
-        "AngularJS"
+        "Magento",
+        "Jahia"
       ]
     },
     {
