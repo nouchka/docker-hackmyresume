@@ -6,12 +6,16 @@ hackmyresume:
   volumes_from:
     - generate
 generate:
-  image: nouchka/hackmyresume
+  build: .
   environment:
-    - OUTPUT_TEMPLATE=kendall
+##  - OUTPUT_TEMPLATE=classy
+    - OUTPUT_TEMPLATE=onepage
     - PHONE=+33602030405
     - EMAIL=docker@katagena.com
     - ADDRESS=25 Rue Delphin Loche
+    - DISPLAY=unix$DISPLAY
+  volumes:
+    - /tmp/.X11-unix:/tmp/.X11-unix
   volumes_from:
     - fetch
 fetch:

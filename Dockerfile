@@ -9,7 +9,7 @@ ENV ADDRESS "25 Rue Delphin Loche"
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \
-        curl && \
+        curl wkhtmltopdf && \
     rm -rf /var/lib/apt/lists/*
 
 RUN npm install hackmyresume@">=1.3.0" -g

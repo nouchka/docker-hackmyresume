@@ -17,5 +17,4 @@ if [ ! -d "/usr/local/lib/node_modules/hackmyresume/node_modules/fresh-themes/th
 	OUTPUT_TEMPLATE="node_modules/jsonresume-theme-$OUTPUT_TEMPLATE"
 fi
 
-hackmyresume build -t $OUTPUT_TEMPLATE $RESUME_FILE TO index.html
-
+hackmyresume build -t $OUTPUT_TEMPLATE $RESUME_FILE TO index.all
