@@ -119,6 +119,7 @@
       "name": "System",
       "keywords": [
         "Linux",
+        "Drone Continuous Integration",
         "Docker",
         "Debian packaging",
         "Asterisk"
