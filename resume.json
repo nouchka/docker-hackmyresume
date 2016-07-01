@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jean-Avit Promis",
     "label": "PHP DEVELOPER & ECOMMERCE SPECIALIST",
-    "summary": "**Web developer with 8+ years industry experience** specializing in ecommerce and system architecture.",
+    "summary": "**Web developer with 8+ years industry experience** specializing in ecommerce and system architecture. 32 years old.",
     "website": "http://www.katagena.com/",
     "phone": "###PHONE###",
     "email": "###EMAIL###",
@@ -79,25 +79,29 @@
       "institution": "ESIGETEL, École supérieure d'ingénieurs en informatique et génie des télécommunications",
       "area": "SIR",
       "startDate": "2004-11",
-      "endDate": "2007-02"
+      "endDate": "2007-02",
+      "studyType": "Engineer school"
     },
     {
       "institution": "University of Marne la vallée",
       "area": "Mathematics",
       "startDate": "2004-10",
-      "endDate": "2005-06"
+      "endDate": "2005-06",
+      "studyType": "University"
     },
     {
       "institution": "Lycée Jean Dautet, La Rochelle",
       "area": "MPSI / PSI",
       "startDate": "2001-09",
-      "endDate": "2004-06"
+      "endDate": "2004-06",
+      "studyType": "CPGE"
     },
     {
       "institution": "Lycée Jean Macé",
       "area": "Scientific",
       "startDate": "1998-09",
-      "endDate": "2001-06"
+      "endDate": "2001-06",
+      "studyType": "High school"
     }
   ],
   "skills": [
@@ -140,7 +144,7 @@
   "interests": [
     {
       "name": "Travel",
-      "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
+      "summary": "",
       "keywords": [
         "Japan",
         "Sweden"
@@ -148,7 +152,7 @@
     },
     {
       "name": "Rugby",
-      "summary": "Jane enjoys hiking, light mountain climbing, and has four summits under her belt!"
+      "summary": ""
     },
     {
       "name": "Live concert"
@@ -166,20 +170,24 @@
   "languages": [
     {
       "language": "French",
-      "level": "Native"
+      "level": "Native",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "level": "TOEIC 915"
+      "level": "TOEIC 915",
+      "fluency": "TOEIC 915"
     },
     {
       "language": "German",
       "level": "Moderate",
+      "fluency": "Beginner",
       "years": 7
     },
     {
       "language": "Swedish",
-      "level": "Beginner"
+      "level": "Beginner",
+      "fluency": "Moderate"
     }
   ]
 }
