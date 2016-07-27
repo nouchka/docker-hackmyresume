@@ -1,6 +1,5 @@
 hackmyresume:
   image: nginx
-  restart: always
   ports:
     - "127.0.0.1:8001:80"
   volumes_from:
@@ -8,8 +7,7 @@ hackmyresume:
 generate:
   build: .
   environment:
-##  - OUTPUT_TEMPLATE=classy
-    - OUTPUT_TEMPLATE=onepage
+    - OUTPUT_TEMPLATE=classy
     - PHONE=+33602030405
     - EMAIL=docker@katagena.com
     - ADDRESS=25 Rue Delphin Loche
