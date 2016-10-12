@@ -4,7 +4,7 @@ fetch:
   volumes:
     - /tmp/resume:/usr/share/nginx/html
 hackmyresume:
-  build: .
+  image: nouchka/hackmyresume
   environment:
     - OUTPUT_TEMPLATE=kendall
     - PHONE=+33602030405
