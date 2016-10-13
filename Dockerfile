@@ -1,5 +1,7 @@
 FROM node
 MAINTAINER Jean-Avit Promis "docker@katagena.com"
+LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-hackmyresume"
+LABEL version="1.0"
 
 ENV RESUME_FILE   resume.json
 ENV OUTPUT_TEMPLATE modern

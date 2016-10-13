@@ -11,7 +11,7 @@ Docker image to build personal website with resume (Ex. https://japromis.katagen
 
 Version follows npm package version
 
-* 1 (latest) (npm package version >=1.3.0 <2)
+* 1.0 (latest) (npm package version >=1.3.0 <2)
 
 # Image
 
