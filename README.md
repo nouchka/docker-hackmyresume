@@ -20,8 +20,8 @@ This image generates html / pdf file using npm package [hackmyresume](https://ww
 
 [docker-hackmyresume-web](https://github.com/nouchka/docker-hackmyresume-web) extends this image with a webserver (nginx) for an all-in-one solution.
 
-The entrypoint of the image checks:
-* if json file is missing, generates one
+The entrypoint of the image:
+* check if json file is missing, generates one
 * update personal datas missing in json (###PHONE###, ###EMAIL### and ###ADDRESS###)
 * validate json file
 * install missing template
