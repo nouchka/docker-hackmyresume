@@ -18,7 +18,7 @@ Version follows npm package version
 This image generates html / pdf file using npm package [hackmyresume](https://www.npmjs.com/package/hackmyresume).
 [HackMyResume](http://please.hackmyresume.com/)  use standard format https://jsonresume.org/schema/ to generate the files.
 
-[docker-hackmyresume-web](https://github.com/nouchka/docker-hackmyresume-web) which extends this image with a webserver (nginx) for an all-in-one solution.
+[docker-hackmyresume-web](https://github.com/nouchka/docker-hackmyresume-web) extends this image with a webserver (nginx) for an all-in-one solution.
 
 The entrypoint of the image checks:
 * if json file is missing, generates one
