@@ -2,8 +2,14 @@
 
 [![Docker Hub repository](http://dockeri.co/image/nouchka/hackmyresume)](https://registry.hub.docker.com/u/nouchka/hackmyresume/)
 
+[![](https://images.microbadger.com/badges/image/nouchka/hackmyresume.svg)](https://microbadger.com/images/nouchka/hackmyresume "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/nouchka/hackmyresume.svg)](https://microbadger.com/images/nouchka/hackmyresume "Get your own version badge on microbadger.com")
+[![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hackmyresume.svg)](https://hub.docker.com/r/nouchka/hackmyresume/)
 [![Build Status](https://travis-ci.org/nouchka/docker-hackmyresume.svg?branch=master)](https://travis-ci.org/nouchka/docker-hackmyresume)
+<!---
+[![Docker Stars](https://img.shields.io/docker/stars/nouchka/docker-hackmyresume.svg)](https://hub.docker.com/r/nouchka/hackmyresume/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nouchka/docker-hackmyresume.svg)]()
+--->
 
 Docker image to build personal website with resume (Ex. https://japromis.katagena.com/)
 
@@ -61,3 +67,7 @@ Environment variables:
 
 * Migrate docker-compose file format to version 2
 * Add parameters to define path to resume.json file
+
+# Donate
+
+Bitcoin Address: 15NVMBpZJTvkefwfsMAFA3YhyiJ5D2zd3R
