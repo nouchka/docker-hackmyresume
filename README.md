@@ -6,10 +6,6 @@
 [![](https://images.microbadger.com/badges/version/nouchka/hackmyresume.svg)](https://microbadger.com/images/nouchka/hackmyresume "Get your own version badge on microbadger.com")
 [![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hackmyresume.svg)](https://hub.docker.com/r/nouchka/hackmyresume/)
 [![Build Status](https://travis-ci.org/nouchka/docker-hackmyresume.svg?branch=master)](https://travis-ci.org/nouchka/docker-hackmyresume)
-<!---
-[![Docker Stars](https://img.shields.io/docker/stars/nouchka/docker-hackmyresume.svg)](https://hub.docker.com/r/nouchka/hackmyresume/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/nouchka/docker-hackmyresume.svg)]()
---->
 
 Docker image to build personal website with resume (Ex. https://japromis.katagena.com/)
 
