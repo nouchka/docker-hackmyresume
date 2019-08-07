@@ -13,7 +13,11 @@ sed -i "s/###ADDRESS###/$ADDRESS/" $RESUME_FILE
 hackmyresume VALIDATE $RESUME_FILE
 
 if [ ! -d "/usr/local/lib/node_modules/hackmyresume/node_modules/fresh-themes/themes/$OUTPUT_TEMPLATE" ]; then
-	npm install jsonresume-theme-$OUTPUT_TEMPLATE
+	if [ "$TEMPLATE_GIT" ]; then
+		npm install $TEMPLATE_GIT
+	else
+		npm install jsonresume-theme-$OUTPUT_TEMPLATE
+	fi
 	OUTPUT_TEMPLATE="node_modules/jsonresume-theme-$OUTPUT_TEMPLATE"
 fi
 
