@@ -1,8 +1,7 @@
 # docker-hackmyresume
 [![Docker pull](https://img.shields.io/docker/pulls/nouchka/hackmyresume)](https://hub.docker.com/r/nouchka/hackmyresume/)
 [![Docker stars](https://img.shields.io/docker/stars/nouchka/hackmyresume)](https://hub.docker.com/r/nouchka/hackmyresume/)
-[![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hackmyresume.svg)](https://hub.docker.com/r/nouchka/hackmyresume/)
-[![Build Status](https://img.shields.io/travis/com/nouchka/docker-hackmyresume/master)](https://travis-ci.com/github/nouchka/docker-hackmyresume)
+[![Build Status](https://gitlab.com/japromis/docker-hackmyresume/badges/master/pipeline.svg)](https://gitlab.com/japromis/docker-hackmyresume/pipelines)
 [![Docker size](https://img.shields.io/docker/image-size/nouchka/hackmyresume/latest)](https://hub.docker.com/r/nouchka/hackmyresume/)
 
 
