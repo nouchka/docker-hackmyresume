@@ -1,4 +1,5 @@
 DOCKER_IMAGE=hackmyresume
+VERSIONS=1
 
 include Makefile.docker
 

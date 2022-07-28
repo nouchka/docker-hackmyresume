@@ -1,9 +1,8 @@
 sut:
   build: .
+  entrypoint: /bin/bash -c 'curl -o /usr/share/nginx/html/resume.json https://raw.githubusercontent.com/nouchka/japromis.katagena.com/master/resume.json && /start.sh && ls -al index.pdf'
   environment:
     - OUTPUT_TEMPLATE=kendall
     - PHONE=+33602030405
     - EMAIL=docker@katagena.com
     - ADDRESS=25 Rue Delphin Loche
-  volumes:
-    - .:/usr/share/nginx/html
