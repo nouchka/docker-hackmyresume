@@ -19,6 +19,4 @@ RUN chmod +x /start.sh
 VOLUME /usr/share/nginx/html/
 WORKDIR /usr/share/nginx/html
 
-USER node
-
-CMD  [ "/start.sh" ]
+CMD [ "/start.sh" ]
