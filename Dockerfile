@@ -9,9 +9,9 @@ ENV EMAIL docker@katagena.com
 ENV ADDRESS "25 Rue Delphin Loche"
 
 RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -yq install --no-install-recommends curl=* wkhtmltopdf=* && \
-    rm -rf /var/lib/apt/lists/* && \
-    npm install hackmyresume@^${VERSION}.3.0 -g
+	DEBIAN_FRONTEND=noninteractive apt-get -yq install --no-install-recommends curl=* wkhtmltopdf=* && \
+	rm -rf /var/lib/apt/lists/* && \
+	npm install hackmyresume@^"${VERSION}".3.0 -g
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
